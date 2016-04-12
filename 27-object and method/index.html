@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Objekt Inilizers </title>
+</head>
+<script type="text/javascript">
+	function car(brand,color,price){
+		this.brand=brand;
+		this.color=color;
+		this.price=price;
+	}
+	function printCar(){
+		document.writeln("This car has 4 wheels");
+	}
+	var c1 = new car("Honda","Pink",2500);
+	document.writeln("This Car Name " +c1.brand);
+	document.writeln("This Car Color " +c1.color);
+	document.writeln("This Car Price " +c1.price);
+	document.writeln(c1.printCar());
+</script>
+</body>
+</html>
