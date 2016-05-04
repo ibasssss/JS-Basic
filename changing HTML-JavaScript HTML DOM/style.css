@@ -1,0 +1,80 @@
+html,
+body{
+	background-color: #eee;
+	padding: 0;
+	margin: 0;
+}
+#wrapper{
+	width: 100%;
+}
+header{
+	background-color: cyan;
+	padding: 10px;
+}
+h1{
+	font-size: 36px;
+}
+h1,h2{
+	color:#555;
+	font-family: Arial;
+
+}
+p,span{
+	color:#6e6e6e;
+	font-family: Arial;
+	font-size: 14;
+}
+article{
+	padding: 10px;
+}
+
+#tab1{
+	background-color: orange;
+}
+#tab2{
+	background-color: lightgreen;
+}
+#tab3{
+	background-color: pink;
+}
+#tab4{
+	background-color: darkseagreen;
+}
+#tab5{
+  background: khaki;
+}
+#container {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background: lightblue;
+}
+#animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom:5px;
+  left:50%;
+  transform:translateX(-50%);
+  background:url("img/rocket.png");
+
+}
+.btn{
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    outline: 0 none;
+    overflow: hidden;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none !important;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.btn, .btn:link, .btn:visited {
+    background-color: #ffad33;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    color: #ffffff;
+}

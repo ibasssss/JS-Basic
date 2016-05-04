@@ -1,0 +1,57 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+	<title>DevKA | JavaScript HTML DOM </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id ="wrapper">
+
+	
+	<section>
+		<article>
+			<h1>Change HTML</h1>
+		</article>
+		<article id="tab1">
+			<h2>Changing HTML content</h2>
+			<p id ="p1">Old Text</p>
+		</article>
+
+		<article id="tab2">
+			<h2>Changing the Value of an Attribute</h2>
+			<img src="img/dj.png"><span>Original</span>
+			<img id="avatar" src="img/dj.png"><span>Image changed by JavaScript</span>
+		</article>
+		<article>
+			<h1>Change CSS</h1>
+		</article>
+		
+		<article id="tab3">
+			<h2>Changing HTML Style</h2>
+			<p id="p2">Original text color is black!</p>
+		
+		</article>
+		<article>
+			<h1>Animation</h1>
+		</article>
+
+		<article id="tab4">
+			<h2>JavaScript Animation</h2>
+			<p><button class="btn" onclick="myMove()">Play it >></button></p>
+				<div id ="container">
+					<div id ="animate"></div>
+				</div>
+		</article>
+		
+		<article id="tab5">
+			<h2>JavaScript DOM Event</h2>
+			<p><button type="submit" class="btn" onclick="displayDate()">Show date>></button></p>
+			<span id="p3"></span>
+		</article>
+	</section>						
+
+</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
